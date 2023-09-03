@@ -1,2 +1,27 @@
 
 /* Your CSS Code here. */
+*{
+    margin: 0;
+}
+.holder{
+    width: 100vw;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.item-1{
+    width: 100px;
+    height: 100px;
+    background-color: red;
+}
+.item-2{
+    width: 100px;
+    height: 100px;
+    background-color:blue;
+}
+.item-3{
+    width: 100px;
+    height: 100px;
+    background-color: green;
+}
